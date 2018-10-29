@@ -28,7 +28,7 @@ public class Dijkstra {
 	}
 	public void addEdgeUndirected(int a, int b, int cost) {
 	    addEdgeDirected(a, b, cost);
-	    addEdgeDirected(b, a, cost);
+	    addEdgeDirected(b, a, cost); 
 	}
     }
     class Pair<E> {
